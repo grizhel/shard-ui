@@ -1,6 +1,6 @@
 {
 	"name": "@grizhla/shard-ui",
-	"version": "1.0.2-test",
+	"version": "1.0.0-development",
 	"description": "Shard is a simple ui library and easy to customize.",
 	"main": "index.js",
 	"scripts": {
