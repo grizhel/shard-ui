@@ -1,0 +1,18 @@
+$original-color: #ff5630;
+$action-color: #555630;
+
+@mixin original-color-color {
+	color: $original-color;
+}
+
+@mixin original-background-color {
+	background-color: $original-color;
+}
+
+@mixin action-background-color {
+	background-color: $action-color;
+}
+
+@mixin action-color-color {
+	color: $action-color;
+}

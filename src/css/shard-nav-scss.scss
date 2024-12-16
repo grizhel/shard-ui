@@ -1,0 +1,45 @@
+@use "_variables.scss" as _variables;
+
+.shard-nav {
+	position: sticky;
+	top: 0;
+}
+
+.shard-nav-top {
+	display: flex;
+	float: none;
+}
+
+.shard-sidebar-container {
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	overflow: auto;
+}
+
+.shard-sidebar-navlink-item {
+	text-decoration: none;
+	font-size: 2rem;
+	@include _variables.original-color-color;
+}
+
+.shard-sidebar-navlink-item:hover {
+	@include _variables.original-color-color;
+	text-decoration: underline;
+}
+
+.shard-sidebar-navlink-item:active {
+	@include _variables.original-color-color;
+	background-color: white;
+}
+
+.shard-sidebar-navlink-item-selected {
+	@include _variables.original-background-color;
+	color: white !important;
+	text-decoration: none;
+}
+
+.shard-sidebar-navlink-item-selected:hover {
+	text-decoration: none;
+}
